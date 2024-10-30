@@ -1,0 +1,20 @@
+a.bptooltips:hover {
+  position: relative;
+}
+
+a.bptooltips span {
+  color:#396482;
+  display: none;
+}
+
+a.bptooltips:hover span {
+  display: block;
+  width:500px;
+  position: absolute; top: 10px; left: 0;
+  padding: 5px; margin: 10px; z-index: 100;
+  background: #f9f9f9; border: 2px solid #396482;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
